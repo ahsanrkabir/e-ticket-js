@@ -10,3 +10,10 @@
 .font-inter {
     font-family: "Inter", sans-serif;
 }
+
+/*  */
+.vertical-line {
+    width: 1px;
+    margin: 0 10px;
+    background-color: white;
+}
