@@ -62,8 +62,9 @@
                         the app. The
                         integrated testing features allow for a streamlined .</p>
                     <button
-                        class="btn bg-[#1DD100] text-xl font-bold text-black border-none hover:bg-black hover:text-white">Buy
-                        Tickets</button>
+                        class="btn bg-[#1DD100] text-xl font-bold text-black border-none hover:bg-black hover:text-white"><a
+                            href="#main-section">Buy Tickets</a>
+                    </button>
                 </div>
             </div>
         </div>
@@ -144,7 +145,7 @@
             </div>
         </section>
         <!-- bus and seat section -->
-        <section class="border-t-4 border-[#1DD100] space-y-16 rounded-t-3xl">
+        <section id="main-section" class="border-t-4 border-[#1DD100] space-y-16 rounded-t-3xl">
             <!-- general info -->
             <div class="container mx-auto space-y-8 text-center mt-20">
                 <h3 class="text-xl lg:text-4xl font-bold">E-Ticket Bus Services</h3>
@@ -202,11 +203,284 @@
             <div class="bg-white container mx-auto flex flex-col lg:flex-row p-2 lg:p-10 rounded-2xl">
                 <!-- all seat container -->
                 <div class="w-full lg:w-3/5">
-
+                    <!-- info & title -->
+                    <div class="space-y-4">
+                        <h5 class="text-2xl font-semibold">Select Your Seat</h5>
+                        <hr>
+                        <div class="flex justify-between">
+                            <div class="flex gap-2 items-center">
+                                <img src="images/seat-gray.png" alt="">
+                                <p>Available</p>
+                            </div>
+                            <div class="flex gap-2 items-center">
+                                <img src="images/seat-green-filled.png" alt="">
+                                <p class="text-[#1DD100]">Selected</p>
+                            </div>
+                        </div>
+                        <hr>
+                        <div class="flex justify-end">
+                            <div class="bg-[#0307121A] px-5 py-2 rounded-lg">
+                                <img src="images/wheel.svg" alt="">
+                            </div>
+                        </div>
+                    </div>
+                    <!-- seat grid -->
+                    <div class="grid grid-cols-4 gap-x-8 lg:gap-x-32 gap-y-4 mt-10 font-inter">
+                        <div id="A1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            A1
+                        </div>
+                        <div id="A2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            A2
+                        </div>
+                        <div id="A3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            A3
+                        </div>
+                        <div id="A4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            A4
+                        </div>
+                        <div id="B1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            B1
+                        </div>
+                        <div id="B2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            B2
+                        </div>
+                        <div id="B3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            B3
+                        </div>
+                        <div id="B4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            B4
+                        </div>
+                        <div id="C1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            C1
+                        </div>
+                        <div id="C2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            C2
+                        </div>
+                        <div id="C3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            C3
+                        </div>
+                        <div id="C4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            C4
+                        </div>
+                        <div id="D1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            D1
+                        </div>
+                        <div id="D2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            D2
+                        </div>
+                        <div id="D3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            D3
+                        </div>
+                        <div id="D4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            D4
+                        </div>
+                        <div id="E1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            E1
+                        </div>
+                        <div id="E2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            E2
+                        </div>
+                        <div id="E3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            E3
+                        </div>
+                        <div id="E4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            E4
+                        </div>
+                        <div id="F1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            F1
+                        </div>
+                        <div id="F2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            F2
+                        </div>
+                        <div id="F3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            F3
+                        </div>
+                        <div id="F4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            F4
+                        </div>
+                        <div id="G1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            G1
+                        </div>
+                        <div id="G2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            G2
+                        </div>
+                        <div id="G3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            G3
+                        </div>
+                        <div id="G4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            G4
+                        </div>
+                        <div id="H1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            H1
+                        </div>
+                        <div id="H2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            H2
+                        </div>
+                        <div id="H3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            H3
+                        </div>
+                        <div id="H4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            H4
+                        </div>
+                        <div id="I1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            I1
+                        </div>
+                        <div id="I2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            I2
+                        </div>
+                        <div id="I3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            I3
+                        </div>
+                        <div id="I4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            I4
+                        </div>
+                        <div id="J1"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            J1
+                        </div>
+                        <div id="J2"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            J2
+                        </div>
+                        <div id="J3"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            J3
+                        </div>
+                        <div id="J4"
+                            class="w-[60px] lg:w-[120px] h-[50px] lg:h-[60px] bg-[#F7F8F8] rounded-xl flex items-center justify-center text-lg font-semibold">
+                            J4
+                        </div>
+                    </div>
                 </div>
+                <!-- vertical line -->
+                <div class="vertical-line bg-gray-300 mx-4"></div>
                 <!-- selected seat container -->
                 <div class="w-full lg:w-2/5">
+                    <div class="space-y-4">
+                        <h5 class="text-2xl font-semibold pt-4 lg:pt-0">Select Your Seat</h5>
+                        <hr>
+                    </div>
+                    <div class="bg-[#F7F8F8] space-y-4">
+                        <!-- table div -->
+                        <div class="overflow-x-auto font-inter">
+                            <table class="table">
+                                <!-- head -->
+                                <thead>
+                                    <tr>
 
+                                        <th>Seat</th>
+                                        <th>Class</th>
+                                        <th>Price</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <!-- row 1 -->
+                                    <tr>
+                                        <td>Cy Ganderton</td>
+                                        <td>Quality Control Specialist</td>
+                                        <td>Blue</td>
+                                    </tr>
+                                    <!-- row 2 -->
+                                    <tr>
+                                        <td>Hart Hagerty</td>
+                                        <td>Desktop Support Technician</td>
+                                        <td>Purple</td>
+                                    </tr>
+                                    <!-- row 3 -->
+                                    <tr>
+                                        <td>Brice Swyre</td>
+                                        <td>Tax Accountant</td>
+                                        <td>Red</td>
+                                    </tr>
+                                </tbody>
+                            </table>
+                        </div>
+                        <hr>
+                        <!-- price div -->
+                        <div class="font-inter p-5">
+                            <!-- total price -->
+                            <div class="flex justify-between text-xl font-bold">
+                                <p>Total Price</p>
+                                <p>BDT <span id="total-price">0</span></p>
+                            </div>
+                            <!-- coupon form -->
+                            <div class="flex justify-between gap-2 lg:gap-0 py-5">
+                                <input id="coupon-input" type="text" placeholder="Have Any Coupon?"
+                                    class="input input-bordered w-full max-w-xs" />
+                                <button id="coupon-btn"
+                                    class="btn bg-[#1DD100] text-xl font-bold text-white border-none hover:bg-black hover:text-white">Apply</button>
+                            </div>
+                            <!-- grand total -->
+                            <div class="flex justify-between text-xl font-bold">
+                                <p>Grand Total</p>
+                                <p>BDT <span id="grand-total">0</span></p>
+                            </div>
+                        </div>
+                    </div>
+                    <!-- passenger info -->
+                    <div class="space-y-4 pt-5">
+                        <div class="space-y-2">
+                            <h5 class="text-2xl font-bold">Passenger Name*</h5>
+                            <input type="text" placeholder="Enter Your Name"
+                                class="input input-bordered input-lg w-full" />
+                        </div>
+                        <div class="space-y-2">
+                            <h5 class="text-2xl font-bold">Phone Number*</h5>
+                            <input type="number" placeholder="Enter Your Phone Number"
+                                class="input input-bordered input-lg w-full" />
+                        </div>
+                        <div class="space-y-2">
+                            <h5 class="text-2xl font-bold">Email ID</h5>
+                            <input type="text" placeholder="Enter Your Email"
+                                class="input input-bordered input-lg w-full" />
+                        </div>
+                        <!-- success button -->
+                        <div>
+                            <button id="success-btn"
+                                class="btn mt-4 bg-[#1DD100] text-xl font-bold text-white border-none hover:bg-black hover:text-white w-full">Next</button>
+                        </div>
+                        <!-- terms of use div -->
+                        <div class="flex justify-evenly text-[#03071299] font-medium underline">
+                            <p>Terms and Conditions</p>
+                            <p>Cancellation Policy</p>
+                        </div>
+                    </div>
                 </div>
             </div>
         </section>
